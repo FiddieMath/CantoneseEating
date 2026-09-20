@@ -2,6 +2,9 @@
 
 写给在外省读书的广东学生的校外觅食指南，用 Markdown 写成，配 Just the Docs 主题发布在 GitHub Pages 上。
 
+- 仓库：<https://github.com/FiddieMath/CantoneseEating>
+- 网站（启用 Pages 后）：<https://fiddiemath.github.io/CantoneseEating/>
+
 ## 内容
 
 | 文件 | 内容 |
@@ -16,22 +19,34 @@
 
 ## 发布到 GitHub Pages
 
-1. 在 GitHub 上新建一个公开仓库，名字建议用 `Meal`（新建时不要勾选 Add a README file）。
-2. 在本目录下推送代码：
+1. 推送代码（如果还没配 remote、也没推过）：
 
    ```
-   git remote add origin https://github.com/<你的用户名>/Meal.git
+   git remote add origin https://github.com/FiddieMath/CantoneseEating.git
    git push -u origin main
    ```
 
-3. 打开仓库的 **Settings → Pages**：
+2. 打开 <https://github.com/FiddieMath/CantoneseEating/settings/pages>：
    - Source 选 **Deploy from a branch**
    - Branch 选 **main**，目录选 **/ (root)**
    - 点 **Save**
-4. 等一两分钟，网站就出现在 `https://<你的用户名>.github.io/Meal/`。
+
+3. 等一两分钟，网站出现在 <https://fiddiemath.github.io/CantoneseEating/>。
+
+## 以后更新内容
+
+改完 Markdown 之后：
+
+```
+git add -A
+git commit -m "更新点菜篇"
+git push
+```
+
+推上去一两分钟，网站自动更新。
 
 ## 注意事项
 
-- 网站通过 `remote_theme` 直接引用 Just the Docs 主题，不需要在本地安装 Jekyll；本机目前也没有装 Ruby，想本地预览的话需要另外安装。
-- 仓库名如果不是 `Meal`，把 [_config.yml](_config.yml) 里的 `baseurl` 改成 `/仓库名`；如果用的是 `<用户名>.github.io` 这种个人主页仓库，`baseurl` 留空字符串。
+- `_config.yml` 里的 `baseurl` 已经按仓库名 `CantoneseEating` 设置好。如果哪天改了仓库名，记得同步改这里。
+- 网站通过 `remote_theme` 引用 Just the Docs 主题，本地不需要安装 Ruby；想在本地预览才需要装 Jekyll。
 - 页面之间的链接用了 Jekyll 的 `{% link %}` 写法，改动文件名时记得同步改链接。

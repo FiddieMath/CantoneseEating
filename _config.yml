@@ -8,12 +8,16 @@ remote_theme: just-the-docs/just-the-docs@v0.12.0
 plugins:
   - jekyll-remote-theme
 
-# 网址设置
-# 仓库名如果不是 Meal，请把 baseurl 改成 "/仓库名"
-# 如果用的是 <用户名>.github.io 这种个人主页仓库，请把 baseurl 改成 ""
-baseurl: "/Meal"
-# url: "https://<你的用户名>.github.io"   # 需要时取消注释并填写
+# 网址设置（对应仓库 https://github.com/FiddieMath/CantoneseEating）
+url: "https://fiddiemath.github.io"
+baseurl: "/CantoneseEating"
 permalink: pretty
+
+# 右上角的辅助链接
+aux_links:
+  "GitHub 仓库":
+    - "https://github.com/FiddieMath/CantoneseEating"
+aux_links_new_tab: true
 
 # 主题功能
 search_enabled: true
