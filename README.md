@@ -1,21 +1,23 @@
-# 广东大学生校外觅食技巧
+# 广东大学生校外觅食技巧 / Cantonese Eating
 
 写给在外省读书的广东学生的校外觅食指南，用 Markdown 写成，配 Just the Docs 主题发布在 GitHub Pages 上。
 
 - 仓库：<https://github.com/FiddieMath/CantoneseEating>
 - 网站（启用 Pages 后）：<https://fiddiemath.github.io/CantoneseEating/>
 
-## 内容
+## 页面
 
-| 文件 | 内容 |
-| --- | --- |
-| [index.md](index.md) | 首页 |
-| [找店篇.md](找店篇.md) | 待整理 |
-| [点菜篇.md](点菜篇.md) | 已整理 |
-| [沟通篇.md](沟通篇.md) | 待整理 |
-| [观察篇.md](观察篇.md) | 待整理 |
+网址全部用英文，导航栏和页面标题用中文：
 
-每篇最上面的 `title` 和 `nav_order` 控制左边导航栏里的名字和顺序，改这两个就行。
+| 文件 | 网址 | 标题 | 内容 |
+| --- | --- | --- | --- |
+| [index.md](index.md) | `/` | 广东大学生校外觅食技巧 | 首页 |
+| [finding.md](finding.md) | `/finding/` | 找店篇 | 待整理 |
+| [ordering.md](ordering.md) | `/ordering/` | 点菜篇 | 已整理 |
+| [communication.md](communication.md) | `/communication/` | 沟通篇 | 待整理 |
+| [observation.md](observation.md) | `/observation/` | 观察篇 | 待整理 |
+
+文件名决定网址（保持英文小写），每个文件最上面的 `title` 决定导航栏里显示的名字（用中文），`nav_order` 决定顺序。改文件名时记得同步更新 [index.md](index.md) 里的 `{% link %}` 链接。
 
 ## 发布到 GitHub Pages
 
