@@ -2,6 +2,7 @@
 layout: default
 title: 找店篇
 nav_order: 2
+permalink: /finding/
 ---
 
 # 找店篇

@@ -2,6 +2,7 @@
 layout: default
 title: 观察篇
 nav_order: 5
+permalink: /observation/
 ---
 
 # 观察篇

@@ -12,12 +12,12 @@
 | 文件 | 网址 | 标题 | 内容 |
 | --- | --- | --- | --- |
 | [index.md](index.md) | `/` | 广东大学生校外觅食技巧 | 首页 |
-| [finding.md](finding.md) | `/finding/` | 找店篇 | 待整理 |
-| [ordering.md](ordering.md) | `/ordering/` | 点菜篇 | 已整理 |
-| [communication.md](communication.md) | `/communication/` | 沟通篇 | 待整理 |
-| [observation.md](observation.md) | `/observation/` | 观察篇 | 待整理 |
+| [docs/finding.md](docs/finding.md) | `/finding/` | 找店篇 | 待整理 |
+| [docs/ordering.md](docs/ordering.md) | `/ordering/` | 点菜篇 | 已整理 |
+| [docs/communication.md](docs/communication.md) | `/communication/` | 沟通篇 | 待整理 |
+| [docs/observation.md](docs/observation.md) | `/observation/` | 观察篇 | 待整理 |
 
-文件名决定网址（保持英文小写），每个文件最上面的 `title` 决定导航栏里显示的名字（用中文），`nav_order` 决定顺序。改文件名时记得同步更新 [index.md](index.md) 里的 `{% link %}` 链接。
+四个篇目放在 `docs/` 文件夹里，网址由每篇最上面的 `permalink` 指定（英文），导航栏显示的名字由 `title` 决定（中文），顺序由 `nav_order` 决定。改文件名或网址时，记得同步更新 [index.md](index.md) 里的链接。
 
 ## 发布到 GitHub Pages
 

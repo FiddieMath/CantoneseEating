@@ -2,6 +2,7 @@
 layout: default
 title: 沟通篇
 nav_order: 4
+permalink: /communication/
 ---
 
 # 沟通篇

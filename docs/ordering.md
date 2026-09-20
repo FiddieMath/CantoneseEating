@@ -2,6 +2,7 @@
 layout: default
 title: 点菜篇
 nav_order: 3
+permalink: /ordering/
 ---
 
 # 点菜篇
