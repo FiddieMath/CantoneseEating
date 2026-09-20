@@ -1,0 +1,31 @@
+# 网站基本设置
+title: 广东大学生校外觅食技巧
+description: 写给在外省读书的广东学生：怎么找店、怎么点菜、怎么和店家沟通、进店看什么。
+lang: zh-CN
+
+# 主题：Just the Docs（由 GitHub Pages 直接拉取，无需本地安装 Ruby）
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+plugins:
+  - jekyll-remote-theme
+
+# 网址设置
+# 仓库名如果不是 Meal，请把 baseurl 改成 "/仓库名"
+# 如果用的是 <用户名>.github.io 这种个人主页仓库，请把 baseurl 改成 ""
+baseurl: "/Meal"
+# url: "https://<你的用户名>.github.io"   # 需要时取消注释并填写
+permalink: pretty
+
+# 主题功能
+search_enabled: true
+heading_anchors: true
+color_scheme: light
+nav_sort: case_insensitive
+back_to_top: true
+back_to_top_text: 回到顶部
+footer_content: "内容为个人经验整理，仅供参考。"
+
+# 不参与网站构建的文件
+exclude:
+  - README.md
+  - .gitignore
+  - .codex/
